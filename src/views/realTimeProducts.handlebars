@@ -1,0 +1,47 @@
+<h2>Productos en tiempo real</h2>
+<form class="form" id="form">
+    <p>Crear producto</p>
+    <div class="">
+        <label for="">Nombre del producto</label>
+        <input type="text" id="name" />
+    </div>
+    <div class="">
+        <label for="">Precio del producto</label>
+        <input type="text" id="price" />
+    </div>
+    <div class="">
+        <label for="">Descripcion del producto</label>
+        <input type="text" id="description" />
+    </div>
+    <div class="">
+        <label for="">Stock del producto</label>
+        <input type="text" id="stock" />
+    </div>
+    <div class="">
+        <label for="">Codigo del producto</label>
+        <input type="text" id="code" />
+    </div>
+    <button type="submit">Enviar</button>
+</form>
+
+<section>
+    {{#if error}}
+    <h2>Error: Hubo un problema al traer todos los productos</h2>
+    <p>{{message}}</p>
+    {{else}}
+    <h2>Productos</h2>
+    <section class="products">
+        {{#each products}}
+        <div id="listProducts" class="product">
+            <p>Nombre: {{this.title}}</p>
+            <p>Precio: ${{this.price}}</p>
+            <button id="delete" onclick="deleteProduct({{this.id}})">Eliminar</button>
+        </div>
+        <br />
+        {{/each}}
+    </section>
+    {{/if}}
+</section>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTimeProducts.js"></script>

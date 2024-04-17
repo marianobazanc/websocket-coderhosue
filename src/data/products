@@ -1,0 +1,222 @@
+[
+	{
+	  "id": "1",
+	  "title": "Shampoo",
+	  "description": "Shampoo para cabello",
+	  "code": "123456",
+	  "price": 5.99,
+	  "status": true,
+	  "stock": 10,
+	  "category": "Cuidado Personal",
+	  "thumbnails": "http://example.com/shampoo.jpg"
+	},
+	{
+	  "id": "2",
+	  "title": "Arroz",
+	  "description": "Arroz blanco de grano largo",
+	  "code": "654321",
+	  "price": 2.49,
+	  "status": true,
+	  "stock": 50,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/arroz.jpg"
+	},
+	{
+	  "id": "3",
+	  "title": "Leche",
+	  "description": "Leche descremada",
+	  "code": "987654",
+	  "price": 1.99,
+	  "status": true,
+	  "stock": 20,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/leche.jpg"
+	},
+	{
+	  "id": "4",
+	  "title": "Pasta",
+	  "description": "Pasta de trigo",
+	  "code": "456789",
+	  "price": 0.99,
+	  "status": true,
+	  "stock": 30,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/pasta.jpg"
+	},
+	{
+	  "id": "5",
+	  "title": "Jabon",
+	  "description": "Jabon de tocador",
+	  "code": "321654",
+	  "price": 1.49,
+	  "status": true,
+	  "stock": 15,
+	  "category": "Cuidado Personal",
+	  "thumbnails": "http://example.com/jabon.jpg"
+	},
+	{
+	  "id": "6",
+	  "title": "Cereal",
+	  "description": "Cereal de maiz",
+	  "code": "654987",
+	  "price": 3.99,
+	  "status": true,
+	  "stock": 25,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/cereal.jpg"
+	},
+	{
+	  "id": "7",
+	  "title": "Papel Higienico",
+	  "description": "Papel higienico de doble hoja",
+	  "code": "789321",
+	  "price": 4.99,
+	  "status": true,
+	  "stock": 10,
+	  "category": "Cuidado Personal",
+	  "thumbnails": "http://example.com/papelhigienico.jpg"
+	},
+	{
+	  "id": "8",
+	  "title": "Galletas",
+	  "description": "Galletas sabor chocolate",
+	  "code": "987123",
+	  "price": 1.49,
+	  "status": true,
+	  "stock": 40,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/galletas.jpg"
+	},
+	{
+	  "id": "9",
+	  "title": "Cepillo de Dientes",
+	  "description": "Cepillo de dientes suave",
+	  "code": "456123",
+	  "price": 2.99,
+	  "status": true,
+	  "stock": 20,
+	  "category": "Cuidado Personal",
+	  "thumbnails": "http://example.com/cepillodedientes.jpg"
+	},
+	{
+	  "id": "10",
+	  "title": "Yogurt",
+	  "description": "Yogurt natural sin azucar",
+	  "code": "321789",
+	  "price": 1.99,
+	  "status": true,
+	  "stock": 30,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/yogurt.jpg"
+	},
+	{
+	  "id": "11",
+	  "title": "Pasta de Dientes",
+	  "description": "Pasta de dientes blanqueadora",
+	  "code": "789654",
+	  "price": 3.99,
+	  "status": true,
+	  "stock": 15,
+	  "category": "Cuidado Personal",
+	  "thumbnails": "http://example.com/pastadedientes.jpg"
+	},
+	{
+	  "id": "12",
+	  "title": "Pan",
+	  "description": "Pan integral",
+	  "code": "987456",
+	  "price": 2.49,
+	  "status": true,
+	  "stock": 20,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/pan.jpg"
+	},
+	{
+	  "id": "13",
+	  "title": "Jabon Liquido",
+	  "description": "Jabon liquido para manos",
+	  "code": "456789",
+	  "price": 1.99,
+	  "status": true,
+	  "stock": 25,
+	  "category": "Cuidado Personal",
+	  "thumbnails": "http://example.com/jabonliquido.jpg"
+	},
+	{
+	  "id": "14",
+	  "title": "Coca Cola",
+	  "description": "Refresco de cola",
+	  "code": "789123",
+	  "price": 1.49,
+	  "status": true,
+	  "stock": 40,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/cocacola.jpg"
+	},
+	{
+	  "id": "15",
+	  "title": "Cafe",
+	  "description": "Cafe molido",
+	  "code": "321987",
+	  "price": 3.99,
+	  "status": true,
+	  "stock": 20,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/cafe.jpg"
+	},
+	{
+	  "id": "16",
+	  "title": "Detergente",
+	  "description": "Detergente en polvo",
+	  "code": "123789",
+	  "price": 4.99,
+	  "status": true,
+	  "stock": 10,
+	  "category": "Cuidado Personal",
+	  "thumbnails": "http://example.com/detergente.jpg"
+	},
+	{
+	  "id": "17",
+	  "title": "Azucar",
+	  "description": "Azucar blanca",
+	  "code": "654123",
+	  "price": 1.49,
+	  "status": true,
+	  "stock": 30,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/azucar.jpg"
+	},
+	{
+	  "id": "18",
+	  "title": "Cerveza",
+	  "description": "Cerveza lager",
+	  "code": "987321",
+	  "price": 2.99,
+	  "status": true,
+	  "stock": 20,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/cerveza.jpg"
+	},
+	{
+	  "id": "19",
+	  "title": "Pasta de Tomate",
+	  "description": "Pasta de tomate concentrada",
+	  "code": "456987",
+	  "price": 1.99,
+	  "status": true,
+	  "stock": 25,
+	  "category": "Alimentos",
+	  "thumbnails": "http://example.com/pastadetomate.jpg"
+	},
+	{
+	  "id": "20",
+	  "title": "Desodorante",
+	  "description": "Desodorante en aerosol",
+	  "code": "321456",
+	  "price": 3.99,
+	  "status": true,
+	  "stock": 15,
+	  "category": "Cuidado Personal",
+	  "thumbnails": "http://example.com/desodorante.jpg"
+	}
+  ]

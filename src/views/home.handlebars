@@ -1,0 +1,20 @@
+<main>
+    <section>
+        {{#if error}}
+        <h2>Error: Hubo un problema al traer todos los productos</h2>
+        <p>{{message}}</p>
+        {{else}}
+        <h2>Productos</h2>
+        <section class="products">
+            {{#each products}}
+            <div class="product">
+                <p>Nombre: {{this.title}}</p>
+                <p>Precio: ${{this.price}}</p>
+            </div>
+            <br />
+            {{/each}}
+        </section>
+        {{/if}}
+    </section>
+</main>
+<script src="/js/home.js"></script>
