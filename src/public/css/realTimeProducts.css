@@ -1,4 +1,4 @@
-main{
+body{
     margin: 0 5rem
 }
 .products{
@@ -8,13 +8,55 @@ main{
 }
 
 .product{
-    background-color: #ccc;
+    background-color: #ffffff;
     padding: 1rem;
     display: flex;
+    gap: 5px;
     flex-direction: column;
     width: 150px;
     justify-content: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #e4e4e4;
 }
 p{
     margin: 0;
+}
+button{
+    background-color: #db4040;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #e74343;
+}
+form{
+    width: 400px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form > button{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #0f8f24;
+    width: 100%;
+}
+form > button:hover{
+    cursor: pointer;
+    background-color: #12a32a;
+}
+.formInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
 }

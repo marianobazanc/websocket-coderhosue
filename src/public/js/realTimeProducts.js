@@ -24,8 +24,8 @@ function updateProductsUI(products) {
         const productElement = document.createElement('div');
         productElement.classList.add('product');
         productElement.innerHTML = `
-            <p>Nombre: ${product.title}</p>
-            <p>Precio: $${product.price}</p>
+            <p><b>Nombre:</b> ${product.title}</p>
+            <p><b>Precio:</b> $${product.price}</p>
             <button id="delete" onclick="deleteProduct('${product.id}')">Eliminar</button>
         `;
         productsSection.appendChild(productElement);

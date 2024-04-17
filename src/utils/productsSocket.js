@@ -19,11 +19,9 @@ module.exports = function (io) {
             io.emit('newProducts', products);
         });
         socket.on('deleteProducts', async data => {
-            console.log("id a eliminar: ",data)
             let productDeleted = products.find(product => {
                 return product.id == data
             })
-            console.log("producto a eliminar: ",productDeleted)
             let indexDeleted = products.indexOf(productDeleted)
             products.splice(indexDeleted, 1)
             io.emit('newProducts', products)
